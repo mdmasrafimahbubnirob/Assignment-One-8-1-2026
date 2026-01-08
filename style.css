@@ -4,55 +4,36 @@
     box-sizing: border-box;
 }
 
-nav {
-    border: 1px solid red;
-    padding-inline: 120px;
-    /* margin: 0px auto; */
-    /* width: 1600px; */
-
-}
-
 header {
-    /* background-color: aqua; */
-    padding-top: 16px;
+    margin: 16px 120px;
 }
 
-.logo-navbar {
-    width: 139px;
-    height: 60px;
-}
-
-div {
+nav {
+    /* border: 1px solid red; */
     display: flex;
-    /* background-color: lightblue; */
     justify-content: space-between;
+
 }
 
 .menu {
     display: flex;
-    list-style-type: none;
     gap: 32px;
+    list-style: none;
     align-items: center;
-    /* text-decoration: none; */
 }
 
-nav .menu a {
+.menu a {
     text-decoration: none;
-    font-size: 16px;
-    color: black;
+    color: #000000;
 }
 
-.navbar .navButton {
-    /* display: flex; */
-    /* align-items: center; */
-    color: rgba(255, 255, 255, 1);;
-    font-size: 16px;
-    /* text-align: center; */
-    padding: 12.5px 16px;
-    border-radius: 4px;
-    background-color: #3e9160;
+.navButton {
     border: none;
-    /* margin: 16px; */
+    width: 164px;
+    height: 44px;
+    color: rgba(255, 255, 255, 1);
+    background-color: #30B868;
+    border-radius: 4px;
+
+    margin: 8px 0px;
 }
-
-
