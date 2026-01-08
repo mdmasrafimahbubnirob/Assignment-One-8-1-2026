@@ -9,7 +9,7 @@ header {
 }
 
 nav {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 
@@ -36,4 +36,18 @@ nav {
     border-radius: 4px;
 
     margin: 8px 0px;
+}
+
+/* heroSection */
+
+.heroSection{
+    /* background-image: url(assets/hero-bg.png); */
+    background-color: aqua;
+    border: 1px solid red;
+    max-width: 2042px;
+    /* max-height:1363px; */
+    align-items: center;
+    /* margin:; */
+
+    
 }
