@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
+
 
 header {
     margin: 16px 120px;
@@ -40,14 +44,88 @@ nav {
 
 /* heroSection */
 
-.heroSection{
-    /* background-image: url(assets/hero-bg.png); */
-    background-color: aqua;
-    border: 1px solid red;
-    max-width: 2042px;
-    /* max-height:1363px; */
-    align-items: center;
-    /* margin:; */
+.heroSection {
+    background-image: url(assets/hero-bg.png);
 
-    
+    background-color: rgba(0, 25, 49, 0.8);
+    ;
+    /* border: 1px solid red; */
+    /* max-width: 2042px; */
+    /* align-items: center; */
+
+
+
+}
+
+
+
+main .heroSection {
+    text-align: center;
+    padding: 115.5px 120px 263.5px 120px;
+}
+
+
+main .heroSection div .one {
+    width: 229px;
+    height: 35px;
+    color: #30B868;
+    border-radius: 1000px;
+    border: none;
+    /* padding: 8px 12px 8px 12px; */
+}
+
+
+main .heroSection div span {
+    color: blue;
+    border-radius: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+main .heroSection div .firsth1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 72px;
+}
+
+main .heroSection div .ndh1 {
+    color: rgba(48, 184, 104, 1);
+    font-size: 72px;
+}
+
+
+main .heroSection div p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    gap: 40px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+
+main .heroSection div .two {
+    width: 251px;
+    height: 52px;
+    background-color: #30B868;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: none;
+}
+
+
+main .heroSection div .three {
+    width: 198px;
+    height: 52px;
+    background-color:transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+}
+
+
+.Start h1 {
+    text-align: center;
+    border: 1px solid red;
+    padding: ;
+    justify-content: space-between;
+
 }
