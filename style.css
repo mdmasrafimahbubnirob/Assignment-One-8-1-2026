@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
 
@@ -125,7 +125,5 @@ main .heroSection div .three {
 .Start h1 {
     text-align: center;
     border: 1px solid red;
-    padding: ;
-    justify-content: space-between;
-
+    color: red;
 }
