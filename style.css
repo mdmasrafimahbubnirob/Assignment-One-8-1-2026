@@ -48,7 +48,7 @@ nav {
     background-image: url(assets/hero-bg.png);
 
     background-color: rgba(0, 25, 49, 0.8);
-    ;
+    background-size: cover;
     /* border: 1px solid red; */
     /* max-width: 2042px; */
     /* align-items: center; */
@@ -71,15 +71,12 @@ main .heroSection div .one {
     color: #30B868;
     border-radius: 1000px;
     border: none;
-    /* padding: 8px 12px 8px 12px; */
+    padding: 8px 12px;
 }
 
 
-main .heroSection div span {
-    color: blue;
-    border-radius: 8px;
-    width: 16px;
-    height: 16px;
+main .heroSection div spa.one img {
+    display: flex
 }
 
 main .heroSection div .firsth1 {
@@ -115,15 +112,127 @@ main .heroSection div .two {
 main .heroSection div .three {
     width: 198px;
     height: 52px;
-    background-color:transparent;
+    background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 1);
     color: rgba(255, 255, 255, 1);
     border-radius: 4px;
 }
 
-
-.Start h1 {
+.h1AndPsection {
     text-align: center;
-    border: 1px solid red;
-    color: red;
+    /* margin: 12px; */
+    /* background-color: #30B868; */
+
+    padding-top: 100px;
+    padding-bottom: 36px;
+    /* gap: 16; */
+
+    font-size: 28px;
+    /* line-height: 58px; */
+    font-style: Bold;
+
+    background-color: #ddeaf6;
 }
+
+.h1AndPsection p {
+    color: #627382;
+    padding: 44px;
+    font-size: 16px;
+    gap: 16px;
+}
+
+.card-section {
+    background-color: #ddeaf6;
+
+}
+
+.card {
+    /* border: ; */
+    width: 322px;
+    /* border: 1px solid red; */
+    /* margin-left: 120px; */
+    width: 322px;
+    height: 300px;
+    align-items: center;
+    /* gap: 16px; */
+    /* padding: 24px; */
+    /* gap: 24px; */
+
+}
+
+.card img {
+    background-color: ;
+    background: rgba(249, 85, 85, 1);
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    /* align-items: center; */
+}
+
+.card-container {
+    display: flex;
+    /* background-color: #30B868; */
+    gap: 24px;
+    /* align-items: center; */
+}
+
+.card-section {
+    padding: 0px 120px;
+}
+
+.card {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 90.5px 33px 0.5px;
+}
+
+.card h2 {
+    /* padding: 159.5px 33px 0.5px; */
+    color: red;
+    /* align-items: center; */
+}
+
+.card p {
+    /* padding: 159.5px 33px 0.5px; */
+    /* align-items: center; */
+}
+
+.Your-second {
+    /* border: 1px solid red; */
+    max-width: 1600px;
+    height: 840px;
+}
+
+.Your-second-div {
+    border: 1px solid red;
+    max-width: 1360px;
+    height: 600px;
+    margin: 120px;
+    display: flex;
+}
+
+.Your-second-div img {
+    width: 600px;
+    height: 599px;
+    padding-right: 60px;
+}
+
+.Your-second-div .Your-second-div-txt {
+    border: 1px solid red;
+    background-color: #c2e0f9;
+    padding-top: 102px;
+}
+
+/* .Your-second-div .Your-second-div-txt img {
+    /* width: 20px;
+    height: 20px; */
+    background-color:brown;
+    color: rgba(48, 184, 104, 1);;
+} */
+
+.Your-second-div-txt h2{
+    color: #30B868;
+}
+
