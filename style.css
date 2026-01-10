@@ -75,9 +75,9 @@ main .heroSection div .one {
 }
 
 
-main .heroSection div spa.one img {
-    display: flex
-}
+/* main .heroSection div spa.one img {
+    display: flex;
+} */
 
 main .heroSection div .firsth1 {
     color: rgba(255, 255, 255, 1);
@@ -151,7 +151,6 @@ main .heroSection div .three {
     width: 322px;
     /* border: 1px solid red; */
     /* margin-left: 120px; */
-    width: 322px;
     height: 300px;
     align-items: center;
     /* gap: 16px; */
@@ -161,7 +160,7 @@ main .heroSection div .three {
 }
 
 .card img {
-    background-color: ;
+    /* background-color: ; */
     background: rgba(249, 85, 85, 1);
     border-radius: 20px;
     width: 32px;
@@ -194,10 +193,6 @@ main .heroSection div .three {
     /* align-items: center; */
 }
 
-.card p {
-    /* padding: 159.5px 33px 0.5px; */
-    /* align-items: center; */
-}
 
 .Your-second {
     /* border: 1px solid red; */
@@ -226,8 +221,8 @@ main .heroSection div .three {
 }
 
 /* .Your-second-div .Your-second-div-txt img {
-    /* width: 20px;
-    height: 20px; */
+    width: 20px;
+    height: 20px;
     background-color:brown;
     color: rgba(48, 184, 104, 1);;
 } */
