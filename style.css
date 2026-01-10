@@ -215,9 +215,10 @@ main .heroSection div .three {
 }
 
 .Your-second-div .Your-second-div-txt {
-    border: 1px solid red;
-    background-color: #c2e0f9;
+    /* border: 1px solid red; */
+    /* background-color: #c2e0f9; */
     padding-top: 102px;
+    width: 700px;
 }
 
 /* .Your-second-div .Your-second-div-txt img {
@@ -227,7 +228,26 @@ main .heroSection div .three {
     color: rgba(48, 184, 104, 1);;
 } */
 
-.Your-second-div-txt h2{
+.Your-second-div-txt h2 {
     color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 13px;
 }
 
+.Your-second-div-txt h {
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    /* padding-bottom: 16px; */
+}
+
+.Your-second-div-txt p{
+    padding-top: 16px;
+    color: #627382;
+    padding-bottom: 40px;
+}
+
+.Your-second-div-txt h3{
+    gap: 3px;
+}
