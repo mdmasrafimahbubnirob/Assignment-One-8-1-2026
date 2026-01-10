@@ -90,24 +90,35 @@ main .heroSection div .ndh1 {
 }
 
 
+
 main .heroSection div p {
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
     gap: 40px;
-    margin-top: 16px;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 
-main .heroSection div .two {
+.two {
     width: 251px;
     height: 52px;
     background-color: #30B868;
     color: rgba(255, 255, 255, 1);
     border-radius: 4px;
     border: none;
+    
 }
 
+.two {
+    /* display: flex; */
+    align-items: center;
+}
+
+.two p {
+    margin: 0px;
+    padding: 0px;
+    /* margin: ; */
+}
 
 main .heroSection div .three {
     width: 198px;
@@ -117,6 +128,10 @@ main .heroSection div .three {
     color: rgba(255, 255, 255, 1);
     border-radius: 4px;
 }
+
+/* .button23 .two{
+    color:red;
+} */
 
 .h1AndPsection {
     text-align: center;
@@ -187,9 +202,14 @@ main .heroSection div .three {
     padding: 90.5px 33px 0.5px;
 }
 
+.card p {
+    color: #627382;
+}
+
 .card h2 {
     /* padding: 159.5px 33px 0.5px; */
-    color: red;
+    color: #001931;
+    /* color: red; */
     /* align-items: center; */
 }
 
@@ -201,7 +221,7 @@ main .heroSection div .three {
 }
 
 .Your-second-div {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: 1360px;
     height: 600px;
     margin: 120px;
@@ -242,12 +262,106 @@ main .heroSection div .three {
     /* padding-bottom: 16px; */
 }
 
-.Your-second-div-txt p{
+.Your-second-div-txt p {
     padding-top: 16px;
     color: #627382;
     padding-bottom: 40px;
 }
 
-.Your-second-div-txt h3{
+.Your-second-div-txt h3 {
     gap: 3px;
 }
+
+.Ready-to-think-more-clearly {
+    /* border: 1px solid red; */
+    /* background-color: #7292ae; */
+    max-width: 1600px;
+    height: 506px;
+}
+
+.Ready-to-think-div {
+    max-width: 1360px;
+    height: 384px;
+    /* border: 1px solid red; */
+    margin: 0px 120px 120px 120px;
+    background-color: #f2f5f8;
+    border-radius: 12px;
+}
+
+.Ready-to-think-div-work {
+    text-align: center;
+    padding: 80px 40px;
+}
+
+.Ready-to-think-div-work h1 {
+    padding-bottom: 16px;
+}
+
+.Ready-to-think-div-work p {
+    color: #627382;
+    padding-bottom: 24px;
+}
+
+.Ready-to-think-div-work button {
+    background-color: #30B868;
+    /* text-align: center; */
+    width: 160px;
+    height: 30px;
+    /* align-items: center; */
+    /* padding: 16.5px 46px 16.5px 16px; */
+    /* padding-bottom: 32.5px; */
+    border: none;
+    border-radius: 4px;
+}
+
+.Ready-to-think-div-work #two {
+    padding-top: 32.5px;
+}
+
+.footer-section {
+    border: 1px solid #001931;
+    max-width: 1600px;
+    height: 348px;
+    background-color: rgba(0, 25, 49, 1);
+}
+
+.footer {
+    /* border: 1px solid red; */
+    max-width: 1360px;
+    height: 64px;
+    margin: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div h3 {
+    color: rgba(255, 255, 255, 1);
+    font-style: Medium;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 16px;
+
+}
+
+/* .footer div {
+    padding-right: 107px;
+} */
+
+.line {
+    border: 1px solid rgba(229, 231, 235, 1);
+    opacity: 0.2;
+    max-width: 1360px;
+    height: 0;
+    /* color:rgba(229, 231, 235, 1) ; */
+    /* padding-left: 120px; */
+}
+
+.copyRight {
+    text-align: center;
+}
+
+.copyRight .line {
+    margin: 70px 120px 15px 120px;
+    align-items: center;
+}
+
